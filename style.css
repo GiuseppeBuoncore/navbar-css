@@ -1,0 +1,52 @@
+nav {
+  background-color: #333;
+  position: relative;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+select{
+    position: relative;
+    float: left;
+    background-color: transparent;
+    color: white;
+    margin-top: 13px;
+}
+
+.searchbut:hover {
+  background-color: green;
+  color: white;
+}
+
+.disabledbut {
+  position: relative;
+  margin-top: 13px;
+  float: left;
+  background-color: transparent;
+  color: white;
+}
+
+.search {
+  position: relative;
+  float: right;
+}
+
+.searchbut {
+  position: relative;
+  margin-right: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  float: right;
+  border: 2px solid green;
+  height: 3vh;
+  background-color: transparent;
+  color: green;
+}
