@@ -13,12 +13,13 @@ nav a {
   font-size: 17px;
 }
 
-select{
-    position: relative;
-    float: left;
-    background-color: transparent;
-    color: white;
-    margin-top: 13px;
+select {
+  position: relative;
+  float: left;
+  background-color: transparent;
+  color: white;
+  margin-top: 13px;
+  border: #333;
 }
 
 .searchbut:hover {
@@ -32,6 +33,7 @@ select{
   float: left;
   background-color: transparent;
   color: white;
+  border: #333;
 }
 
 .search {
@@ -42,7 +44,7 @@ select{
 .searchbut {
   position: relative;
   margin-right: 5px;
-  margin-top: 10px;
+  top: 10px;
   border-radius: 5px;
   float: right;
   border: 2px solid green;
